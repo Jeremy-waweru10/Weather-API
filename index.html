@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Weather App</h1>
-    </div>
-    <div class="container">
+    <h1 class="header">Weather App</h1>
+    <div class="app">
+      <div class="container">
         <input type="text" id="locationInput" placeholder="Enter a city">
         <button id="searchButton">Search</button>
         <div class="weather">
@@ -19,7 +18,9 @@
             <p id="description"></p>
             <p id="humidity"></p>
             <p id="wind"></p>
-            <img id="weatherIcon" alt="Weather Icon" />
+            <p id="loading" style="display: none;">Loading...</p>
+
+            
         </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
